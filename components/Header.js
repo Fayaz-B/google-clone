@@ -34,6 +34,7 @@ const Header = () => {
             className='flex-grow w-full focus:outline-none'
             type='text'
             ref={searchInputRef}
+            defaultValue={router.query.term}
           />
           <XIcon
             className='h-6 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125 mr-3'
